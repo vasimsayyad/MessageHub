@@ -18,6 +18,6 @@ public class MessagingAppController {
 		ModelAndView mv = new ModelAndView("helloworld");
 		mv.addObject("message", message);
 		mv.addObject("name", name);
-		return mv;
+		return mv;//comment by raj
 	}
 }
