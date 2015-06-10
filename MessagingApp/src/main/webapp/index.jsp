@@ -12,7 +12,7 @@ pageEncoding="ISO-8859-1"%>
 	<center>
 		<h2>Messaging App</h2>
 		<h3>
-			<a href="hello?name=Vasim">Click Here</a>
+			<a href="hello?name=Vasim">Click Me</a>
 		</h3>
 	</center>
 </body>
