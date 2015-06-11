@@ -20,6 +20,7 @@ public class MessagingAppController {
 		mv.addObject("name", name);
 		System.out.println("Vasim 1234");
 			System.out.println("Raj 1234");
+			System.out.println("b2");
 		return mv;//comment by raj
 	}
 }
