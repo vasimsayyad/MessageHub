@@ -19,6 +19,7 @@ public class MessagingAppController {
 		mv.addObject("message", message);
 		mv.addObject("name", name);
 		System.out.println("Vasim 1234");
+			System.out.println("Raj 1234");
 		return mv;//comment by raj
 	}
 }
