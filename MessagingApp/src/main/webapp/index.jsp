@@ -24,7 +24,8 @@
 		</div>
 
 		<h3>
-			<a href="hello?name=Vasim">Click Me</a>
+			<a href="hello?name=Vasim">Click Me</a><br>
+			<a href="addUser">Click Here to add User</a><br>
 		</h3>
 	</center>
 </body>
