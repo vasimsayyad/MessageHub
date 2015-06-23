@@ -1,26 +1,22 @@
 package com.messagingapp.controller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
- 
+
 @Controller
 public class MessagingAppController {
 	String message = "Welcome to Spring MVC!";
- 
-	@RequestMapping("/hello")
-	public ModelAndView showMessage(
-			@RequestParam(value = "name", required = false, defaultValue = "World") String name) {
+
+@RequestMapping("/hello")
+public ModelAndView showMessage(
+		@RequestParam(value = "name", required = false, defaultValue = "World") String name) {
 		System.out.println("in controller");
- 
 		ModelAndView mv = new ModelAndView("helloworld");
 		mv.addObject("message", message);
 		mv.addObject("name", name);
-		System.out.println("Vasim 1234");
-			System.out.println("Raj 1234");
-			System.out.println("b2");
-		return mv;//comment by raj
+		System.out.println("BY Mandar");
+		return mv;// comment by raj
 	}
 }
